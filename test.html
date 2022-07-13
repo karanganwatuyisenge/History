@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+        .divTest{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border: 4px;
+            border-radius: 5px;
+        }
+.close
+{
+ position: absolute;
+ top: 30px;
+ right: 30px;
+ cursor: pointer;
+ filter: invert(1);
+ max-width: 32px;
+}
+.trailer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  background: rgba(0,0,0,0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+.trailer.active
+{
+  visibility: visible;
+  opacity: 1;
+}
+
+.trailer iframe{
+  position: relative;
+  max-width: 900px;
+  outline: none;
+}
+@media (max-width: 991px)
+{
+  .trailer iframe
+  {
+    max-width: 90%;
+  }
+}
+    </style>
+</head>
+<body>
+<div class="divTest">
+   <div class="trailer">
+            <iframe
+              src="https://www.youtube.com/embed/Y8fOqUcTE3o">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="change();" class="close">
+          </div>
+
+</div>
+<a onclick="changeVisibility();">click here</a>
+<script type="text/javascript">
+    function changeVisibility() {
+        divTest = document.querySelector(".trailer")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+    function change() {
+        trailer = document.querySelector(".trailer")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+</script>
+</body>
+</html>

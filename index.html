@@ -68,8 +68,14 @@
                   <source src="president.mp3" type="audio/mpeg">
                   <source src="president.ogg" type="audio/ogg">
               </audio>
+              <div class="trailer" id="president">
+            <iframe
+              src="https://www.youtube.com/embed/ANPD9LitT_s">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changepresident();" class="closevideo">
+          </div>
               <div class="member-img" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
-                <img src="assets/img/team/president.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/team/president.jpeg" class="img-fluid" alt="" onclick="changeVisibilitypresident();">
               </div>
               <div class="member-info">
                 <h4>Paul KAGAME</h4>
@@ -86,8 +92,14 @@
                   <source src="Prime Minister.mp3" type="audio/mpeg">
                   <source src="Prime Minister.ogg" type="audio/ogg">
               </audio>
+              <div class="trailer" id="pmin">
+            <iframe
+              src="https://www.youtube.com/embed/_5dVjDR4s0E">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changepmin();" class="closevideo">
+          </div>
               <div class="member-img" onmouseover="PlaySound('mySoundOfPrime')" onmouseout="StopSound('mySoundOfPrime')">
-                <img src="assets/img/team/PrimeMinister.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/team/PrimeMinister.jpeg" class="img-fluid" alt="" onclick="changeVisibilitypmin();">
               </div>
               <div class="member-info">
                 <h4>Eduard NGIRENTE</h4>
@@ -103,8 +115,14 @@
                   <source src="Prime Minister.mp3" type="audio/mpeg">
                   <source src="Prime Minister.ogg" type="audio/ogg">
               </audio>
+              <div class="trailer" id="ict">
+            <iframe
+              src="https://www.youtube.com/embed/wxocuDoUcI4">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeict();" class="closevideo">
+          </div>
               <div class="member-img" onmouseover="PlaySound('mySoundOfIct')" onmouseout="StopSound('mySoundOfIct')">
-                <img src="assets/img/team/paula.png" class="img-fluid" alt="">
+                <img src="assets/img/team/paula.png" class="img-fluid" alt="" onclick="changeVisibilityict();">
               </div>
               <div class="member-info">
                 <h4>Paula INGABIRE</h4>
@@ -121,9 +139,15 @@
                   <source src="Prime Minister.mp3" type="audio/mpeg">
                   <source src="Prime Minister.ogg" type="audio/ogg">
               </audio>
+              <div class="trailer" id="sport">
+            <iframe
+              src="https://www.youtube.com/embed/wxocuDoUcI4">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changesport();" class="closevideo">
+          </div>
 
               <div class="member-img" onmouseover="PlaySound('mySoundOfSport')" onmouseout="StopSound('mySoundOfSport')">
-                <img src="assets/img/team/mimosa.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/mimosa.jpg" class="img-fluid" alt="" onclick="changeVisibilitysport();">
               </div>
               <div class="member-info">
                 <h4>Mimosa Aurore MUNYANGAJU</h4>
@@ -136,7 +160,125 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
+
+    <!-- End Team Section -->
+  
+
+  <!-- ======= Tourism Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Tourism</h2>
+          <p>Rwanda Tourism Attraction</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  data-aos="fade-up" data-aos-delay="100">
+              <audio id="mySound" controls preload="none" style="display:none">
+                  <source src="president.mp3" type="audio/mpeg">
+                  <source src="president.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="king">
+            <iframe
+              src="https://www.youtube.com/embed/R7Y8DS8hDN8">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeking();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+                <img src="assets/img/ingoro.jpeg" class="img-fluid" alt="" onclick="changeVisibilityking();">
+              </div>
+              <div class="member-info">
+                <h4>King Palace</h4>
+                <span>At Nyanza District</span><br>
+
+                <h4><a href="https://www.visitrwanda.com/interests/kings-palace/"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  data-aos="fade-up" data-aos-delay="100">
+              <audio id="mySoundOfPrime" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="kivu">
+            <iframe
+              src="https://www.youtube.com/embed/Y8fOqUcTE3o">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeKivu();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySoundOfPrime')" onmouseout="StopSound('mySoundOfPrime')">
+              <img src="assets/img/kivu.jpeg" class="img-fluid" alt="" onclick="changeVisibilityKivu();">
+              </div>
+              <div class="member-info">
+                <h4>Lake Kivu</h4>
+                <span>At Easten Province</span><br>
+                <h4><a href="https://www.visitrwanda.com/destinations/lake-kivu/"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+               <audio id="mySoundOfIct" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="kcca">
+            <iframe
+              src="https://www.youtube.com/embed/s7VEK3m3FfU;autoplay=1&mute=1">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeKcc();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySoundOfIct')" onmouseout="StopSound('mySoundOfIct')">
+                <img src="assets/img/conversition.jpeg" class="img-fluid" alt="" onclick="changeVisibilityKcc();">
+              </div>
+              <div class="member-info">
+                <h4>Kigali Convention Center</h4>
+                <span>Kigali city</span><br>
+                <h4><a href="https://www.visitrwanda.com/meet-in-rwanda/kigali-convention-centre/"><center style="color: black;">Read More...</center></a></h4>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <audio id="mySoundOfSport" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="gorilla">
+            <iframe
+              src="https://www.youtube.com/embed/c472zg9k5vU">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changegorilla();" class="closevideo">
+          </div>
+
+              <div class="member-img" onmouseover="PlaySound('mySoundOfSport')" onmouseout="StopSound('mySoundOfSport')">
+                <img src="assets/img/ingagi.jpeg" class="img-fluid" alt="" onclick="changeVisibilitygorilla();">
+              </div>
+              <div class="member-info">
+                <h4>Gorilla Tracking</h4>
+                <span>At northen province</span><br>
+                <h4><a href="https://www.visitrwanda.com/interests/gorilla-tracking/#:~:text=Tracking%20gorillas%20in%20Rwanda%20is,our%20governments%2C%20communities%20and%20NGOs."><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Tourism Section -->
+
    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -254,11 +396,7 @@
         &copy; Copyright <strong><span>Group 3</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">Group 3</a>
+        Designed by <a href="#index">Group 3</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -275,3 +413,4 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+

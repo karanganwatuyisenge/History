@@ -296,4 +296,120 @@ function PlaySound(soundobj) {
          thissound.pause();
          thissound.currentTime = 0;
          }
-         
+
+/**
+   * video play
+   */
+      let btn = document.querySelector(".member-img");
+      let clip = document.querySelector(".clip");
+      let video = document.querySelector("video");
+      let close = document.querySelector(".close");
+      function playVideo(){
+        btn.classList.add("active");
+        clip.classList.add("active");
+        video.currentTime = 0;
+        video.play();
+      }
+      close.onclick = function(){
+        btn.classList.remove("active");
+        clip.classList.remove("active");
+        video.pause(); 
+      }
+
+      
+    function changeVisibilityKivu() {
+        divTest = document.querySelector("#kivu")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changeKivu() {
+        trailer = document.querySelector("#kivu")
+        video = document.querySelector("iframe")
+        trailer.style.visibility = "hidden"
+        video.pause()
+        trailer.style.opacity = 0;
+    }
+    function changeVisibilityKcc() {
+        divTest = document.querySelector("#kcca")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changeKcc() {
+        trailer = document.querySelector("#kcca")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+
+    function changeVisibilitygorilla() {
+        divTest = document.querySelector("#gorilla")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changegorilla() {
+        trailer = document.querySelector("#gorilla")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+
+    function changeVisibilityking() {
+        divTest = document.querySelector("#king")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changeking() {
+        trailer = document.querySelector("#king")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+
+    function changeVisibilitypresident() {
+        divTest = document.querySelector("#president")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changepresident() {
+        trailer = document.querySelector("#president")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+
+    function changeVisibilitypmin() {
+        divTest = document.querySelector("#pmin")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changepmin() {
+        trailer = document.querySelector("#pmin")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+
+    function changeVisibilityict() {
+        divTest = document.querySelector("#ict")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changeict() {
+        trailer = document.querySelector("#ict")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
+
+    function changeVisibilitysport() {
+        divTest = document.querySelector("#sport")
+        divTest.style.visibility = "visible"
+        divTest.style.opacity = 1;
+    }
+
+    function changesport() {
+        trailer = document.querySelector("#sport")
+        trailer.style.visibility = "hidden"
+        trailer.style.opacity = 0;
+    }
