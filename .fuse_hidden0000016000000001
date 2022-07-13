@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Group 3</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpeg" rel="icon">
+  <link href="assets/img/logo.jpeg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Group <span>3</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#team">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="https://www.gov.rw/cabinet">More</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+   <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Leaders</h2>
+          <p>Rwandan Leaders</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  data-aos="fade-up" data-aos-delay="100">
+              <audio id="mySound" controls preload="none" style="display:none">
+                  <source src="president.mp3" type="audio/mpeg">
+                  <source src="president.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="president">
+            <iframe
+              src="https://www.youtube.com/embed/ANPD9LitT_s">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changepresident();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+                <img src="assets/img/team/president.jpeg" class="img-fluid" alt="" onclick="changeVisibilitypresident();">
+              </div>
+              <div class="member-info">
+                <h4>Paul KAGAME</h4>
+                <span>President Of Rwanda</span><br>
+
+                <h4><a href="https://www.gov.rw/president"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  data-aos="fade-up" data-aos-delay="100">
+              <audio id="mySoundOfPrime" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="pmin">
+            <iframe
+              src="https://www.youtube.com/embed/_5dVjDR4s0E">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changepmin();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySoundOfPrime')" onmouseout="StopSound('mySoundOfPrime')">
+                <img src="assets/img/team/PrimeMinister.jpeg" class="img-fluid" alt="" onclick="changeVisibilitypmin();">
+              </div>
+              <div class="member-info">
+                <h4>Eduard NGIRENTE</h4>
+                <span>Prime Minister</span><br>
+                <h4><a href="https://www.primature.gov.rw/about"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+               <audio id="mySoundOfIct" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="ict">
+            <iframe
+              src="https://www.youtube.com/embed/wxocuDoUcI4">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeict();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySoundOfIct')" onmouseout="StopSound('mySoundOfIct')">
+                <img src="assets/img/team/paula.png" class="img-fluid" alt="" onclick="changeVisibilityict();">
+              </div>
+              <div class="member-info">
+                <h4>Paula INGABIRE</h4>
+                <span>Minister Of ICT</span><br>
+                <h4><a href="https://www.minict.gov.rw/about"><center style="color: black;">Read More...</center></a></h4>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <audio id="mySoundOfSport" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="sport">
+            <iframe
+              src="https://www.youtube.com/embed/wxocuDoUcI4">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changesport();" class="closevideo">
+          </div>
+
+              <div class="member-img" onmouseover="PlaySound('mySoundOfSport')" onmouseout="StopSound('mySoundOfSport')">
+                <img src="assets/img/team/mimosa.jpg" class="img-fluid" alt="" onclick="changeVisibilitysport();">
+              </div>
+              <div class="member-info">
+                <h4>Mimosa Aurore MUNYANGAJU</h4>
+                <span>Minister Of Sport</span><br>
+                <h4><a href="https://www.minisports.gov.rw/about-1"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End Team Section -->
+  
+
+  <!-- ======= Tourism Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Tourism</h2>
+          <p>Rwanda Tourism Attraction</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  data-aos="fade-up" data-aos-delay="100">
+              <audio id="mySound" controls preload="none" style="display:none">
+                  <source src="president.mp3" type="audio/mpeg">
+                  <source src="president.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="king">
+            <iframe
+              src="https://www.youtube.com/embed/R7Y8DS8hDN8">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeking();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+                <img src="assets/img/ingoro.jpeg" class="img-fluid" alt="" onclick="changeVisibilityking();">
+              </div>
+              <div class="member-info">
+                <h4>King Palace</h4>
+                <span>At Nyanza District</span><br>
+
+                <h4><a href="https://www.visitrwanda.com/interests/kings-palace/"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  data-aos="fade-up" data-aos-delay="100">
+              <audio id="mySoundOfPrime" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="kivu">
+            <iframe
+              src="https://www.youtube.com/embed/Y8fOqUcTE3o">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeKivu();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySoundOfPrime')" onmouseout="StopSound('mySoundOfPrime')">
+              <img src="assets/img/kivu.jpeg" class="img-fluid" alt="" onclick="changeVisibilityKivu();">
+              </div>
+              <div class="member-info">
+                <h4>Lake Kivu</h4>
+                <span>At Easten Province</span><br>
+                <h4><a href="https://www.visitrwanda.com/destinations/lake-kivu/"><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+               <audio id="mySoundOfIct" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="kcca">
+            <iframe
+              src="https://www.youtube.com/embed/s7VEK3m3FfU;autoplay=1&mute=1">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changeKcc();" class="closevideo">
+          </div>
+              <div class="member-img" onmouseover="PlaySound('mySoundOfIct')" onmouseout="StopSound('mySoundOfIct')">
+                <img src="assets/img/conversition.jpeg" class="img-fluid" alt="" onclick="changeVisibilityKcc();">
+              </div>
+              <div class="member-info">
+                <h4>Kigali Convention Center</h4>
+                <span>Kigali city</span><br>
+                <h4><a href="https://www.visitrwanda.com/meet-in-rwanda/kigali-convention-centre/"><center style="color: black;">Read More...</center></a></h4>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <audio id="mySoundOfSport" controls preload="none" style="display:none">
+                  <source src="Prime Minister.mp3" type="audio/mpeg">
+                  <source src="Prime Minister.ogg" type="audio/ogg">
+              </audio>
+              <div class="trailer" id="gorilla">
+            <iframe
+              src="https://www.youtube.com/embed/c472zg9k5vU">
+            </iframe>
+            <img src="assets/img/close.png"  onclick="changegorilla();" class="closevideo">
+          </div>
+
+              <div class="member-img" onmouseover="PlaySound('mySoundOfSport')" onmouseout="StopSound('mySoundOfSport')">
+                <img src="assets/img/ingagi.jpeg" class="img-fluid" alt="" onclick="changeVisibilitygorilla();">
+              </div>
+              <div class="member-info">
+                <h4>Gorilla Tracking</h4>
+                <span>At northen province</span><br>
+                <h4><a href="https://www.visitrwanda.com/interests/gorilla-tracking/#:~:text=Tracking%20gorillas%20in%20Rwanda%20is,our%20governments%2C%20communities%20and%20NGOs."><center style="color: black;">Read More...</center></a></h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Tourism Section -->
+
+   <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/aboutus.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3></h3>
+            <p class="fst-italic">
+              The Government of Rwanda
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> The National Flag</li>
+              <audio id="flag" controls preload="none" style="display:none">
+                  <source src="Rwanda_Flag_Review_(getmp3.pro).mp3" type="audio/mpeg">
+                  <source src="Rwanda_Flag_Review_(getmp3.pro).ogg" type="audio/ogg">
+              </audio>
+              <p onmouseover="PlaySound('flag')" onmouseout="StopSound('flag')">
+              The national flag comprises of the following colours from the bottom to the top: a green strip, followed by a yellow strip both of which cover half the flag. The upper half is blue and bears on its right hand side the image of the sun with its rays of golden yellow. The sun and its rays are separated by a blue ring. The characteristics, description, ceremonial and respect of the National Flag are determined by the law.
+            </p>
+              <li><i class="ri-check-double-line"></i> The Seal</li>
+              The Seal of the Republic of Rwanda consists of a green ring with a knot of the same colour tied at the lower edge of the ring; on the top are the imprints “REPUBLIC OF RWANDA”. Below the knot is the national motto “UNITY, WORK, PATRIOTISM”. All imprints are written in black characters on a yellow background. It also consists of: the sun, its rays, sorghum and coffee, a small basket, a blue cogged wheel and one shield at the right hand side and another at the left hand side.
+
+              <li><i class="ri-check-double-line"></i> National Anthem</li>
+              <audio id="anthem" controls preload="none" style="display:none">
+                  <source src="Republic_of_Rwanda_National_Anthe_(getmp3.pro).mp3" type="audio/mpeg">
+                  <source src="Republic_of_Rwanda_National_Anthe_(getmp3.pro).ogg" type="audio/ogg">
+              </audio>
+               <p onmouseover="PlaySound('anthem')" onmouseout="StopSound('anthem')">
+              UThe title of the national Anthem is “RWANDA NZIZA” [Beautiful Rwanda]. It consists of four (4) verses which generally praise the beauty of Rwanda as the common cradle of all Rwandan people and emphasises the unity of all Rwandan people. The Anthem also emphasizes the common characteristics of Rwandans and Rwandan values as their common heritage and the pillar of national development.
+            </p>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+     <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15949.965023075225!2d30.064100349999997!3d-1.9569800499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca42936c4fc0b%3A0x8c6a59bcc69b83fb!2sNyarugenge%2C%20Kigali!5e0!3m2!1sen!2srw!4v1655367189185!5m2!1sen!2srw" width="1120" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Kigali, Nyarugenge</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>group3@email.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+250788540523</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Group 3</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#index">Group 3</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
